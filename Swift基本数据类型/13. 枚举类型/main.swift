@@ -23,6 +23,7 @@ enum Direction
     case left
     case right
     
+    // 旋转度
     func getRotation()->Int
     {
         switch self {
