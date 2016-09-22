@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4C02A9011D934E61006960AF"
-               BuildableName = "Swift&#x57fa;&#x672c;&#x6570;&#x636e;&#x7c7b;&#x578b;"
-               BlueprintName = "Swift&#x57fa;&#x672c;&#x6570;&#x636e;&#x7c7b;&#x578b;"
-               ReferencedContainer = "container:Swift&#x57fa;&#x672c;&#x6570;&#x636e;&#x7c7b;&#x578b;.xcodeproj">
+               BuildableName = "Swift&#x57fa;&#x7840;"
+               BlueprintName = "Swift&#x57fa;&#x7840;"
+               ReferencedContainer = "container:Swift&#x57fa;&#x7840;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4C02A9011D934E61006960AF"
-            BuildableName = "Swift&#x57fa;&#x672c;&#x6570;&#x636e;&#x7c7b;&#x578b;"
-            BlueprintName = "Swift&#x57fa;&#x672c;&#x6570;&#x636e;&#x7c7b;&#x578b;"
-            ReferencedContainer = "container:Swift&#x57fa;&#x672c;&#x6570;&#x636e;&#x7c7b;&#x578b;.xcodeproj">
+            BuildableName = "Swift&#x57fa;&#x7840;"
+            BlueprintName = "Swift&#x57fa;&#x7840;"
+            ReferencedContainer = "container:Swift&#x57fa;&#x7840;.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4C02A9011D934E61006960AF"
-            BuildableName = "Swift&#x57fa;&#x672c;&#x6570;&#x636e;&#x7c7b;&#x578b;"
-            BlueprintName = "Swift&#x57fa;&#x672c;&#x6570;&#x636e;&#x7c7b;&#x578b;"
-            ReferencedContainer = "container:Swift&#x57fa;&#x672c;&#x6570;&#x636e;&#x7c7b;&#x578b;.xcodeproj">
+            BuildableName = "Swift&#x57fa;&#x7840;"
+            BlueprintName = "Swift&#x57fa;&#x7840;"
+            ReferencedContainer = "container:Swift&#x57fa;&#x7840;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4C02A9011D934E61006960AF"
-            BuildableName = "Swift&#x57fa;&#x672c;&#x6570;&#x636e;&#x7c7b;&#x578b;"
-            BlueprintName = "Swift&#x57fa;&#x672c;&#x6570;&#x636e;&#x7c7b;&#x578b;"
-            ReferencedContainer = "container:Swift&#x57fa;&#x672c;&#x6570;&#x636e;&#x7c7b;&#x578b;.xcodeproj">
+            BuildableName = "Swift&#x57fa;&#x7840;"
+            BlueprintName = "Swift&#x57fa;&#x7840;"
+            ReferencedContainer = "container:Swift&#x57fa;&#x7840;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
