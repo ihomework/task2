@@ -13,6 +13,7 @@
 		4C02A9291D935A6C006960AF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C02A9281D935A6C006960AF /* main.swift */; };
 		4C02A9341D935F00006960AF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C02A9331D935F00006960AF /* main.swift */; };
 		4C02A93F1D936CAB006960AF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C02A93E1D936CAB006960AF /* main.swift */; };
+		DC27DDA11D93FEC000B2AC52 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC27DDA01D93FEC000B2AC52 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,6 +71,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		DC27DD9C1D93FEC000B2AC52 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +95,8 @@
 		4C02A9331D935F00006960AF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4C02A93C1D936CAB006960AF /* Swift流程控制 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift流程控制"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C02A93E1D936CAB006960AF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DC27DD9E1D93FEC000B2AC52 /* switch循环 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "switch循环"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC27DDA01D93FEC000B2AC52 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +142,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DC27DD9B1D93FEC000B2AC52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -141,7 +160,8 @@
 				4C02A91C1D93571B006960AF /* 3.字符串类型 */,
 				4C02A9271D935A6C006960AF /* 4.数组 */,
 				4C02A9321D935F00006960AF /* 5.字典 */,
-				4C02A93D1D936CAB006960AF /* 6.Swift流程控制 */,
+				4C02A93D1D936CAB006960AF /* 6.if流程控制 */,
+				DC27DD9F1D93FEC000B2AC52 /* 7.switch流程控制 */,
 				4C02A9031D934E62006960AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -155,6 +175,7 @@
 				4C02A9261D935A6C006960AF /* 数组 */,
 				4C02A9311D935F00006960AF /* 字典 */,
 				4C02A93C1D936CAB006960AF /* Swift流程控制 */,
+				DC27DD9E1D93FEC000B2AC52 /* switch循环 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,13 +225,22 @@
 			path = "字典";
 			sourceTree = "<group>";
 		};
-		4C02A93D1D936CAB006960AF /* 6.Swift流程控制 */ = {
+		4C02A93D1D936CAB006960AF /* 6.if流程控制 */ = {
 			isa = PBXGroup;
 			children = (
 				4C02A93E1D936CAB006960AF /* main.swift */,
 			);
-			name = "6.Swift流程控制";
+			name = "6.if流程控制";
 			path = "Swift流程控制";
+			sourceTree = "<group>";
+		};
+		DC27DD9F1D93FEC000B2AC52 /* 7.switch流程控制 */ = {
+			isa = PBXGroup;
+			children = (
+				DC27DDA01D93FEC000B2AC52 /* main.swift */,
+			);
+			name = "7.switch流程控制";
+			path = "switch循环";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,6 +348,23 @@
 			productReference = 4C02A93C1D936CAB006960AF /* Swift流程控制 */;
 			productType = "com.apple.product-type.tool";
 		};
+		DC27DD9D1D93FEC000B2AC52 /* switch循环 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC27DDA41D93FEC000B2AC52 /* Build configuration list for PBXNativeTarget "switch循环" */;
+			buildPhases = (
+				DC27DD9A1D93FEC000B2AC52 /* Sources */,
+				DC27DD9B1D93FEC000B2AC52 /* Frameworks */,
+				DC27DD9C1D93FEC000B2AC52 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "switch循环";
+			productName = "switch循环";
+			productReference = DC27DD9E1D93FEC000B2AC52 /* switch循环 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -346,6 +393,9 @@
 					4C02A93B1D936CAB006960AF = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					DC27DD9D1D93FEC000B2AC52 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 4C02A8FD1D934E61006960AF /* Build configuration list for PBXProject "Swift基础" */;
@@ -366,6 +416,7 @@
 				4C02A9251D935A6C006960AF /* 数组 */,
 				4C02A9301D935F00006960AF /* 字典 */,
 				4C02A93B1D936CAB006960AF /* Swift流程控制 */,
+				DC27DD9D1D93FEC000B2AC52 /* switch循环 */,
 			);
 		};
 /* End PBXProject section */
@@ -416,6 +467,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C02A93F1D936CAB006960AF /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC27DD9A1D93FEC000B2AC52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC27DDA11D93FEC000B2AC52 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +647,20 @@
 			};
 			name = Release;
 		};
+		DC27DDA21D93FEC000B2AC52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC27DDA31D93FEC000B2AC52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -650,6 +723,15 @@
 			buildConfigurations = (
 				4C02A9401D936CAB006960AF /* Debug */,
 				4C02A9411D936CAB006960AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC27DDA41D93FEC000B2AC52 /* Build configuration list for PBXNativeTarget "switch循环" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC27DDA21D93FEC000B2AC52 /* Debug */,
+				DC27DDA31D93FEC000B2AC52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
