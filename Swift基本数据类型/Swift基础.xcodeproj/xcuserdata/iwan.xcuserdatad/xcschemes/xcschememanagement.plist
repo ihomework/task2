@@ -4,6 +4,36 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>10.认识swift函数.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>11.有参数的函数.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>12.有返回值的函数.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>13. 枚举类型.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>15.字符串类型.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>9.optional可选参数拆包.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>Swift基本数据类型.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +43,16 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>5</integer>
+		</dict>
+		<key>optional可选参数.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>switch循环.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 		<key>字典.xcscheme</key>
 		<dict>
@@ -33,6 +73,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>结构体.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -63,6 +108,51 @@
 			<true/>
 		</dict>
 		<key>4C02A93B1D936CAB006960AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CA75DB51D94A6E4001407A1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC27DD9D1D93FEC000B2AC52</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC27DDA81D9401E100B2AC52</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC27DDB31D94050600B2AC52</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC27DDBE1D9412E100B2AC52</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC27DDC91D94141500B2AC52</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC27DDD41D94152D00B2AC52</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC27DDDF1D9484EC00B2AC52</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC27DDEA1D94899F00B2AC52</key>
 		<dict>
 			<key>primary</key>
 			<true/>
