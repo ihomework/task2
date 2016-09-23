@@ -27,6 +27,8 @@
 		DC27DDE31D9484EC00B2AC52 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC27DDE21D9484EC00B2AC52 /* main.swift */; };
 		DC27DDEE1D94899F00B2AC52 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC27DDED1D94899F00B2AC52 /* main.swift */; };
 		DC27DDF91D955B0A00B2AC52 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC27DDF81D955B0A00B2AC52 /* main.swift */; };
+		DC27DE041D95629200B2AC52 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC27DE031D95629200B2AC52 /* main.swift */; };
+		DC27DE0B1D95641100B2AC52 /* student.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC27DE0A1D95641100B2AC52 /* student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -228,6 +230,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		DC27DDFF1D95629200B2AC52 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -273,6 +284,9 @@
 		DC27DDED1D94899F00B2AC52 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DC27DDF61D955B0A00B2AC52 /* 九九乘法表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "九九乘法表"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC27DDF81D955B0A00B2AC52 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DC27DE011D95629200B2AC52 /* 21. 构造对象并按要求进行排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "21. 构造对象并按要求进行排序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC27DE031D95629200B2AC52 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DC27DE0A1D95641100B2AC52 /* student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -430,6 +444,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DC27DDFE1D95629200B2AC52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -456,6 +477,7 @@
 				4CA75DF91D94B824001407A1 /* 18.字符串分析 */,
 				4CA75E041D94BB5F001407A1 /* 19.认识emoji */,
 				DC27DDF71D955B0A00B2AC52 /* 九九乘法表 */,
+				DC27DE021D95629200B2AC52 /* 21. 构造对象并按要求进行排序 */,
 				4C02A9031D934E62006960AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -485,6 +507,7 @@
 				4CA75DF81D94B824001407A1 /* 18.字符串分析 */,
 				4CA75E031D94BB5F001407A1 /* 19.认识emoji */,
 				DC27DDF61D955B0A00B2AC52 /* 九九乘法表 */,
+				DC27DE011D95629200B2AC52 /* 21. 构造对象并按要求进行排序 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -654,6 +677,15 @@
 				DC27DDF81D955B0A00B2AC52 /* main.swift */,
 			);
 			path = "九九乘法表";
+			sourceTree = "<group>";
+		};
+		DC27DE021D95629200B2AC52 /* 21. 构造对象并按要求进行排序 */ = {
+			isa = PBXGroup;
+			children = (
+				DC27DE031D95629200B2AC52 /* main.swift */,
+				DC27DE0A1D95641100B2AC52 /* student.swift */,
+			);
+			path = "21. 构造对象并按要求进行排序";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1033,6 +1065,23 @@
 			productReference = DC27DDF61D955B0A00B2AC52 /* 九九乘法表 */;
 			productType = "com.apple.product-type.tool";
 		};
+		DC27DE001D95629200B2AC52 /* 21. 构造对象并按要求进行排序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC27DE051D95629200B2AC52 /* Build configuration list for PBXNativeTarget "21. 构造对象并按要求进行排序" */;
+			buildPhases = (
+				DC27DDFD1D95629200B2AC52 /* Sources */,
+				DC27DDFE1D95629200B2AC52 /* Frameworks */,
+				DC27DDFF1D95629200B2AC52 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "21. 构造对象并按要求进行排序";
+			productName = "21. 构造对象并按要求进行排序";
+			productReference = DC27DE011D95629200B2AC52 /* 21. 构造对象并按要求进行排序 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1109,6 +1158,9 @@
 					DC27DDF51D955B0A00B2AC52 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					DC27DE001D95629200B2AC52 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 4C02A8FD1D934E61006960AF /* Build configuration list for PBXProject "Swift基础" */;
@@ -1145,6 +1197,7 @@
 				4CA75DF71D94B824001407A1 /* 18.字符串分析 */,
 				4CA75E021D94BB5F001407A1 /* 19.认识emoji */,
 				DC27DDF51D955B0A00B2AC52 /* 九九乘法表 */,
+				DC27DE001D95629200B2AC52 /* 21. 构造对象并按要求进行排序 */,
 			);
 		};
 /* End PBXProject section */
@@ -1321,6 +1374,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC27DDF91D955B0A00B2AC52 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC27DDFD1D95629200B2AC52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC27DE041D95629200B2AC52 /* main.swift in Sources */,
+				DC27DE0B1D95641100B2AC52 /* student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1717,6 +1779,20 @@
 			};
 			name = Release;
 		};
+		DC27DE061D95629200B2AC52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC27DE071D95629200B2AC52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1923,6 +1999,14 @@
 			buildConfigurations = (
 				DC27DDFA1D955B0A00B2AC52 /* Debug */,
 				DC27DDFB1D955B0A00B2AC52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC27DE051D95629200B2AC52 /* Build configuration list for PBXNativeTarget "21. 构造对象并按要求进行排序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC27DE061D95629200B2AC52 /* Debug */,
+				DC27DE071D95629200B2AC52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
