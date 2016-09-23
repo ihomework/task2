@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>1.整型类型.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
 		<key>10.认识swift函数.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -33,6 +38,21 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>15</integer>
+		</dict>
+		<key>17.字符串分割.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
+		<key>2.浮点类型.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+		<key>3.字符串类型.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
 		</dict>
 		<key>9.optional可选参数拆包.xcscheme</key>
 		<dict>
@@ -123,6 +143,26 @@
 			<true/>
 		</dict>
 		<key>4CA75DC01D94A922001407A1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CA75DCB1D94AE9D001407A1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CA75DD61D94B0A2001407A1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CA75DE11D94B178001407A1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CA75DEC1D94B1BA001407A1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
