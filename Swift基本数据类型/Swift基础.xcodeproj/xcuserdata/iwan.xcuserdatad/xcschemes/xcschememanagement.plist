@@ -49,6 +49,11 @@
 			<key>orderHint</key>
 			<integer>20</integer>
 		</dict>
+		<key>19.认识emoji.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
 		<key>2.浮点类型.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -173,6 +178,11 @@
 			<true/>
 		</dict>
 		<key>4CA75DF71D94B824001407A1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CA75E021D94BB5F001407A1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
