@@ -29,6 +29,11 @@
 			<key>orderHint</key>
 			<integer>14</integer>
 		</dict>
+		<key>16.截取字符串.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 		<key>9.optional可选参数拆包.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -113,6 +118,11 @@
 			<true/>
 		</dict>
 		<key>4CA75DB51D94A6E4001407A1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CA75DC01D94A922001407A1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
