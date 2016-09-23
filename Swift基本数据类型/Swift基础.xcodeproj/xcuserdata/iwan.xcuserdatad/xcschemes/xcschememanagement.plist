@@ -44,6 +44,11 @@
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
+		<key>18.字符串分析.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
 		<key>2.浮点类型.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -163,6 +168,11 @@
 			<true/>
 		</dict>
 		<key>4CA75DEC1D94B1BA001407A1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CA75DF71D94B824001407A1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
