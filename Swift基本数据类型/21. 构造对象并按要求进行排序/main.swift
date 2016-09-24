@@ -19,26 +19,16 @@ var arr:[Student] = [Student]()
 
 // 封装数组
 for i in 0...9{
-    var stu = Student(name: "ywf",mathScore: 90-i,EnglishScore: 89-i)
+    var stu = Student(name: "ywf\(i)",mathScore: 90-i,EnglishScore: 79-i)
     arr.append(stu)
 }
-print(arr)
+
 
 // 排序
 for i in 0...arr.count-2{
-
-    // 英语排序
+    // 平均分排序
     for j in i+1...arr.count-1{
-        if arr[i].EnglishScore > arr[j].EnglishScore{
-            var temp = arr[i]
-            arr[i] = arr[j]
-            arr[j] = temp
-        }
-    }
-    
-    // 数学排序
-    for j in i+1...arr.count-1{
-        if arr[i].mathScore > arr[j].mathScore{
+        if arr[i].average() > arr[j].average(){
             var temp = arr[i]
             arr[i] = arr[j]
             arr[j] = temp
@@ -47,5 +37,7 @@ for i in 0...arr.count-2{
     
 }
 
-print("排序后 ")
-print(arr)
+// 排序后的结果
+for i in 0...arr.count-1{
+    print("姓名：\(arr[i].name) 数学成绩:\(arr[i].mathScore) 英语成绩：\(arr[i].EnglishScore) 平均分：\(arr[i].average())")
+}

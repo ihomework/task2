@@ -12,4 +12,8 @@ struct Student {
     var mathScore:Int
     var EnglishScore:Int
     
+    // 平均分
+    func average()->Float{
+        return Float(mathScore + EnglishScore)/2
+    }
 }

@@ -59,6 +59,11 @@
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
+		<key>21. 构造对象并按要求进行排序.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>3.字符串类型.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -85,6 +90,11 @@
 			<integer>7</integer>
 		</dict>
 		<key>switch循环.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>九九乘法表.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>6</integer>
@@ -223,6 +233,16 @@
 			<true/>
 		</dict>
 		<key>DC27DDEA1D94899F00B2AC52</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC27DDF51D955B0A00B2AC52</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC27DE001D95629200B2AC52</key>
 		<dict>
 			<key>primary</key>
 			<true/>
